@@ -23,7 +23,6 @@ export default function App() {
     if (tarefa === "") {
       return;
     }
-
     const dados = {
       key: Date.now(),
       item: tarefa,
