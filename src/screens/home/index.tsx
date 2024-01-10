@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import {Button, Header, Input, Title, Wrapper, WrapperInput} from './styles';
 import {FontAwesome} from '@expo/vector-icons';
-import {FlatList} from 'react-native';
 import Tarefa from './Tasks';
 import {EmptyState} from '../../components/EmptyState';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {FlatList} from 'react-native';
 
 type TaskType = {
   key: number;
